@@ -84,8 +84,8 @@ for (i in seq_len(n.comp)) {
   ## 5) run the DML test
   dml.res <- DMLtest(
     BSobj,
-    group1        = grp2.samples,
-    group2        = grp1.samples,
+    group1        = grp1.samples,
+    group2        = grp2.samples,
     smoothing     = TRUE,
     smoothing.span= 500,
     equal.disp    = FALSE,
